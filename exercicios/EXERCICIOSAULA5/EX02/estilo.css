@@ -1,0 +1,73 @@
+body{
+    font-family: cursive;
+}
+
+figure{
+    box-shadow: 5px 5px 10px ;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;    
+}
+
+figure>img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1, .dist{
+    display: inline-block;
+    width: 49%;
+}
+
+h1{
+    font-size: 20pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dist img{
+    vertical-align: middle;
+
+}
+
+.dist{
+    text-align: right;
+}
+
+.estrelas img{
+    width: 100px;
+}
+
+figcaption{
+    padding: 10px;
+
+}
+
+.dias{
+    text-align: center;
+}
+
+.horario *{
+    display: inline-block;
+    width: 65px;
+    line-height: 30px;
+}
+
+.clock{
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.horario{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.reserva{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: rgba(31, 30, 30, 0.411);
+}
